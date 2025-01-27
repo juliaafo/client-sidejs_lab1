@@ -44,6 +44,7 @@ function result() {
     which to grab a random string - for example if insertW was an array of strings, I would type:
 	var wItem = randomValueFromArray(insertW);*/
     var xItem = randomValueFromArray(insertX);
+    var xItem = randomValueFromArray(insertX);
     var yItem = randomValueFromArray(insertY);
     var zItem = randomValueFromArray(insertZ);
 
