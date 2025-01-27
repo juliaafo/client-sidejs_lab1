@@ -5,7 +5,7 @@
 - randomize for the button
 - story for the paragraph that outputs the final story
 */
-let customName = document.getElementById("customName");
+let customName = document.getElementById("customname");
 let randomize = document.querySelector(".randomize");
 let story = document.querySelector(".story");
 
