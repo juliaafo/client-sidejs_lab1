@@ -44,7 +44,6 @@ function result() {
     which to grab a random string - for example if insertW was an array of strings, I would type:
 	var wItem = randomValueFromArray(insertW);*/
     var xItem = randomValueFromArray(insertX);
-    var xItem = randomValueFromArray(insertX);
     var yItem = randomValueFromArray(insertY);
     var zItem = randomValueFromArray(insertZ);
 
@@ -53,6 +52,7 @@ function result() {
     string — :insertx:, :inserty:, and :insertz: — with the strings stored in 
     xItem, yItem, and zItem. Each time, be sure to update the variable newStory 
     (with =). You might need to do one of the above replacements twice! */
+    newStory = newStory.replace(":insertx:", xItem);
     newStory = newStory.replace(":insertx:", xItem);
     newStory = newStory.replace(":inserty:", yItem);
     newStory = newStory.replace(":insertz:", zItem);
